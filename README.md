@@ -7,6 +7,7 @@ Example for creating a custom dashboard within OpenShift > Observe > Dashboards
   `$ oc apply -f JZ-OU110-test-customDataSource-VariableDropDown-And-Panels` </br>
  3. Check if configMap has been applied `JZ-OU110-test-customDataSource-VariableDropDown-And-Panels` should now be listed among the configmaps. </br>
   `$ oc get configmaps` </br>
+ 4. Navigate to the Openshift Console > Observe > Dashboard > `Dashboard` DropDown menu now should display 'JZ-TEST: VariableDropDown + Panels (compute-resources-namespace(workloads))'
 
 ### Prerequisite 
 1. 'oc' Openshift CLI must be installed 
